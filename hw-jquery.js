@@ -6,13 +6,11 @@ $("#banner-secondary").html('\
   ')
 
 $("#sbt").click(function(){
-  if($(uname).val() == 'bananacoding' ){
-    if($(pname).val() == 'password' ){
-      alert("Hello! Login success!!");
-    }else
-    {
-      alert("Login again!!");
-    }
+  if($(uname).val() == 'bananacoding' && $(pname).val() == 'password'  ){
+    alert("Hello! Login success!!");
+  }else{
+    alert("Login again!!");
   }
-  
+ 
 });
+
